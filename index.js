@@ -21,6 +21,16 @@ const newspapers = [
     base: ""
   },
   {
+    name: 'latimes',
+    address: 'https://www.latimes.com/environment',
+    base: '',
+  },
+  {
+    name: 'telegraph',
+    address: 'https://www.telegraph.co.uk/climate-change',
+    base: 'https://www.telegraph.co.uk',
+  },
+  {
     name: "bbc",
     address: "https://www.bbc.co.uk/news/science_and_environment",
     base: "https://www.bbc.co.uk"
