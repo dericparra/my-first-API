@@ -1,8 +1,15 @@
 const PORT = process.env.PORT || 8000
 const express = require("express")
 const axios = require("axios")
+const cors = require("cors")
 const cheerio = require("cheerio")
 const app = express()
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*")
+  app.use(cors())
+  next()
+})
 
 const newspapers = [
   {
