@@ -25,7 +25,7 @@ const newspapers = [
   {
     name: "nyt",
     address: "https://www.nytimes.com/international/section/climate",
-    base: ""
+    base: "https://www.nytimes.com/"
   },
   {
     name: 'latimes',
@@ -36,11 +36,6 @@ const newspapers = [
     name: 'telegraph',
     address: 'https://www.telegraph.co.uk/climate-change',
     base: 'https://www.telegraph.co.uk',
-  },
-  {
-    name: "bbc",
-    address: "https://www.bbc.co.uk/news/science_and_environment",
-    base: "https://www.bbc.co.uk"
   }
 ]
 
